@@ -86,9 +86,11 @@
 
   -XX:+PrintCommandLineFlags :  查看生产环境中使用的参数
 
-  -XX:+PrintFlagsFinal : 最终参数值
+  -XX:+PrintFlagsFinal : 输出最终参数值
 
-  -XX:+PrintFlagsInitial : 默认参数值
+  -XX:+PrintFlagsInitial : 输出默认参数值
+  
+  -XX:HeapDumpPath : jvm崩溃时生成dump文件
 
 ![](C:\Users\57362\Desktop\学习笔记\images\QQ图片20210714001848.png)
 
